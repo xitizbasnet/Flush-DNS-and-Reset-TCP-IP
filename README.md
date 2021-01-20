@@ -3,12 +3,12 @@ Flush DNS and Reset TCP/IP
 ------------------
 
 
-netsh winsock reset
+1. netsh winsock reset
 
-netsh int ip reset
+2. netsh int ip reset
 
-ipconfig /release
+3. ipconfig /release
 
-iipconfig /renew
+4. ipconfig /renew
 
-ipconfig /flushdns
+5. ipconfig /flushdns
